@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Login - Concursos MS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .login {
+            z-index: -1;
+            background-color: #e7e7e7;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 60px;
+            border-radius: 15px;
+            color: #00923f;
+        }
+
+        .login input {
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .login button {
+            background-color: #00923f;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            color: #e7e7e7;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .entrar:hover {
+            background-color: #10b356;
+            transition: 0.3s;
+        }
+
+        .login .cadastrar {
+            background-color: #6699fe
+        }
+
+        .cadastrar:hover {
+            background-color: #446ec4;
+            transition: 0.3s;
+        }
+
+        main {
+            background-color: transparent;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <section class="topo">
+            
+            <nav>
+                
+                <!-- logo inicio -->
+                <a href="#">
+                    <img src="img/logo2.png" alt="logo do site Concurso MS" class="logo">
+                </a>
+                <!-- logo FIM -->
+
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <ul class="nav-list">
+
+                    <li><a href="index.html">INÍCIO</a></li>
+                    <li><a href="concursos.html">CONCURSOS</a></li>
+                    <li><a href="login.html">PAINEL DO CANDITADO</a></li>
+                    
+                </ul>
+
+            </nav>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="login">
+            
+            <h1>Login</h1>
+            <br>
+            <input type="text" placeholder="CPF">
+            <br><br>
+            <input type="password" placeholder="Senha">
+            <br><br>
+            <button class="entrar">Entrar</button>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <button class="cadastrar">Cadastrar</button>
+
+        </section>
+
+    </main>
+
+    <script src="js/mobile-navbar.js"></script>
+
+</body>
+</html>
